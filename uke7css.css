@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a {
+  background: linear-gradient(45deg, #ff0058, #00d0ff);
+}
+#bowser {
+  height: 400px;
+  width: 400px;
+  border: solid black 2px;
+  background-image: url(bowser.png);
+  background-position: 50% 45%;
+  color: white;
+  font-size: xx-large;
+}
+#superMario {
+  height: 400px;
+  width: 400px;
+  border: solid black 2px;
+  background-image: url(https://cdn.discordapp.com/attachments/830039837645078538/834756565038268416/20210422_134408.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 45%;
+  font-size: xx-large;
+}
+#sevinner {
+  height: 200px;
+  width: 856px;
+  border: solid black 2px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: arial black;
+  font-size: 200%;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#bowserImg {
+  margin-left: 75px;
+  margin-top: 50px;
+}
+#sverreImg {
+  width: 100%;
+  height: 100%;
+}
